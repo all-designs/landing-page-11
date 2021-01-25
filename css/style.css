@@ -1,0 +1,690 @@
+/*+-----------------------------------------------------------+
+  |                                                           |
+  |    Template Name: Event Needz landing page                |
+  |    Author: melon mia                                      |
+  |    Author Email: amdadulhaquemelon63566@gmai.com          |
+  |    Version: 1.00                                          |
+  |                                                           |
+  +-----------------------------------------------------------+*/
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. Index Or landing Page 
+        |----> Header css
+        |----> Sticky header css
+        |----> Banner Css
+        |----> Service Css
+        |----> Product Css
+        |----> Event Css
+        |----> Offer Css
+        |----> Updates Css
+        |----> Footer Css
+        |----> Copyright Css
+*/
+/*===========================
+    1. Theme default css 
+===========================*/
+/* Local Fonts Css */
+@font-face {
+    font-family: 'Segoe Script';
+    src: url('../fonts/locul\ font/.eot?');
+    src: url('../fonts/locul\ font/.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/locul\ font/.woff2') format('woff2'),
+        url('../fonts/locul\ font/.woff') format('woff'),
+        url('../fonts/locul\ font/.ttf') format('truetype'),
+        url('../fonts/locul\ font/.svg#SegoeScript') format('svg');
+
+    font-family: 'Droid Sans';
+    src: url("../fonts/locul\ font/DroidSans");
+    src: url('../fonts/locul\ font/DroidSans') format('woff2'),
+        url('../fonts/locul\ font/DroidSans') format('woff'),
+        url('../fonts/locul\ font/DroidSans') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* start common css */
+.img {
+    max-width: 100%;
+    vertical-align: middle;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.bg_cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}
+
+/* End common css */
+body {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.4px;
+    color: #7f7f7f;
+}
+
+p {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #7f7f7f;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+/* all section title css */
+.section_title {}
+
+.section_title h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Droid Sans', sans-serif;
+    color: #000;
+}
+
+.section_title p {
+    padding: 0 173px;
+}
+
+/* theme button */
+.theme_btn {
+    padding: 10px;
+    background: #0074B1;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    text-transform: uppercase;
+}
+
+.theme_btn:hover {
+    border: 1px solid #dddd;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #000000;
+}
+
+/*===========================
+    1. Theme default css End
+===========================*/
+/*===========================
+    Index Page Css Start 
+===========================*/
+/*========= Header part css start======== */
+/* header top */
+.header_top {
+    background-image: linear-gradient(to right, #2C8CC1, #2C8CC1, #68678A);
+    border: 0;
+}
+
+.header_top .welcome {
+    padding: 20px 0;
+    text-align: left;
+}
+
+.header_top .welcome a {
+    color: #fff;
+}
+
+.header_top .login_form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header_top .login_form .login {
+    position: absolute;
+    top: 50%;
+    right: 205px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header_top .login_form .login a {
+    color: #fff;
+}
+
+.header_top .login_form .register {
+    position: absolute;
+    top: 50%;
+    right: 95px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header_top .login_form .register a {}
+
+.header_top .login_form .len {
+    position: absolute;
+    right: 0;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header_top .login_form .len span {}
+
+.header_top .login_form .len i {}
+
+/* header buttom */
+
+.header_bottom {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 41px;
+    z-index: 99999999;
+}
+
+.header_bottom .navbar {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar .navbar-brand {}
+
+.navbar .navbar-brand img {}
+
+.navbar .navbar-toggler {}
+
+.navbar .navbar-collapse {}
+
+.navbar .navbar-collapse .navbar-nav {}
+
+.navbar .navbar-collapse .navbar-nav .nav-item {}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active,
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #CE3232;
+}
+
+/* Header css end */
+
+/* Banner past css  */
+.banner {
+    position: relative;
+}
+
+.banner .banner_bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.banner .banner_contaent {}
+
+.banner_contaent .banner_text {
+    padding: 154px 0;
+}
+
+.banner_contaent .banner_text span {
+    color: #000;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.banner_contaent .banner_text h1 {
+    font-size: 50px;
+    color: #000;
+    font-weight: 700;
+    padding-right: 146px;
+    padding-top: 20px;
+}
+
+.banner_contaent .banner_text p {
+    padding-right: 428px;
+    color: #333;
+    margin-bottom: 51px;
+}
+
+.banner_contaent .banner_btn {}
+
+.banner_contaent .banner_btn a {}
+
+.banner_contaent .banner_img {
+    position: absolute;
+    right: 34px;
+    top: 150px;
+}
+
+/* Work part */
+.work {}
+
+.work .single_brif {}
+
+.work .single_brif .brif_icon {
+    position: relative;
+}
+
+.work .single_brif .brif_icon .icon_box {
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid #0872B9;
+    text-align: center;
+    color: #0872B9;
+    width: 100px;
+    height: 100px;
+    line-height: 117px;
+}
+
+.work .single_brif .brif_icon .icon_box i {
+    font-size: 58px;
+}
+
+.work .single_brif .brif_text {
+    margin-left: 110px;
+}
+
+.work .single_brif .brif_text h4 {
+    color: #000;
+}
+
+.work .single_brif .brif_text p {}
+
+/* download PART CSS */
+.download {}
+
+.download .ad_image {}
+
+.download .download_text {}
+
+.download .download_text h3 {
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+
+.download .download_text p {
+    margin-bottom: 66px;
+}
+
+.download .download_btn {}
+
+.download .download_btn a {}
+
+/* Video part css */
+.video_part {}
+
+.video_part .video_slider {}
+
+.video_part .video_slider .single_slider {}
+
+.video_part .video_slider .single_slider video {}
+
+.video_part .video_slider .single_slider video iframe {
+    width: 100%;
+    height: 350px;
+}
+
+.video_part .video_btn {
+    margin-top: 55px;
+}
+
+/* Pric part css start */
+.pricing {}
+
+.pricing .single_pric {
+    position: relative;
+    padding: 60px 40px 60px 27px;
+    border: 1px solid rgb(122, 122, 122);
+}
+
+.pricing .single_pric .overlay {
+    background: #0872B9;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.pricing .single_pric.active .overlay,
+.pricing .single_pric:hover .overlay {
+    height: 100%;
+}
+
+.pricing .single_pric .play_btn {
+    position: absolute;
+    right: 0;
+    width: 43px;
+    height: 45px;
+    background: #0872B9;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    bottom: 0;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.pricing .single_pric.active .play_btn,
+.pricing .single_pric:hover .play_btn {
+    background: #000000;
+}
+
+.pricing .single_pric .pric {
+    text-align: center;
+}
+
+.pricing .single_pric .pric h4 {
+    font-size: 66px;
+    color: #000;
+    position: relative;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.pricing .single_pric.active h4,
+.pricing .single_pric:hover h4 {
+    color: #fff;
+}
+
+.pricing .single_pric .pric h4 span {
+    font-size: 51px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.pricing .single_pric p {
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.pricing .single_pric.active p,
+.pricing .single_pric:hover p {
+    color: #fff;
+}
+
+.pricing .single_pric .pric_details {}
+
+.pricing .single_pric .pric_details h4 {
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.pricing .single_pric.active .pric_details h4,
+.pricing .single_pric:hover .pric_details h4 {
+    color: #fff;
+}
+
+.pricing .single_pric .pric_details ul {
+    margin-top: 15px;
+}
+
+.pricing .single_pric .pric_details ul li {
+    padding-bottom: 27px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.pricing .single_pric.active li,
+.pricing .single_pric:hover li {
+    color: #fff;
+}
+
+.pricing .single_pric .pric_details ul li i {
+    color: #E46766;
+    padding-right: 5px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.pricing .single_pric.active ul li i,
+.pricing .single_pric:hover ul li i {
+    color: #fff;
+}
+
+/* Design part */
+.design {}
+
+.design .single_design {}
+
+.single_design {}
+
+.single_design .design_img {}
+
+.single_design .design_img img {}
+
+.single_design .design_details {
+    padding: 20px 5px 20px 5px;
+    text-align: center;
+}
+
+.single_design .design_details .design_no {
+    margin-bottom: 32px;
+    font-size: 31px;
+    color: #0872B9;
+}
+
+.single_design .design_details .design_no a {}
+
+.single_design .design_details h4 {
+    color: #000;
+}
+
+.single_design .design_details p {
+    margin-bottom: 49px;
+}
+
+.single_design .design_details .design_btn {}
+
+/* Blog */
+.blog {}
+
+.blog .single_blog {
+    text-align: center;
+    padding: 35px 0;
+    border-radius: 20px;
+    background: #EEEEEE;
+    box-shadow: 0 10px 10px -5px;
+}
+
+.blog .single_blog .blog_text {
+    padding: 0 16px;
+}
+
+.blog .single_blog .blog_text span {
+    font-size: 21px;
+}
+
+.blog .single_blog .blog_text h3 {
+    margin-top: 23px;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.blog .single_blog .blog_text p {}
+
+/* Contoct part css */
+.heading-row {
+    padding-top: 60px;
+    color: #fff;
+}
+
+.heading-row .heading {
+    margin-top: 10px;
+    margin: 29px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#contact-form textarea {
+    color: #fff;
+    border-color: transparent;
+}
+
+textarea#comment {
+    height: 180px;
+    padding: 25px 16px;
+}
+
+textarea {
+    height: 38px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0 16px;
+    -webkit-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -ms-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -o-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    color: #7a7a7a;
+    font-size: 14px;
+}
+
+#contact-form textarea:hover {
+    border: 1px solid #0872B9;
+    background: none;
+}
+
+#contact-form .contact-name,
+#contact-form .contact-email {
+    height: 38px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    margin-bottom: 30px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+
+#contact-form .contact-name input,
+#contact-form .contact-email input {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    padding-left: 20px;
+}
+
+#contact-form .contact-email:hover,
+#contact-form .contact-name:hover {
+    border: 1px solid #0872B9;
+    background: none;
+}
+
+#contact-form .message_button {
+    margin-bottom: 50px;
+}
+
+#contact-form .message_button input {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 13px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+/* footer part css */
+footer {
+    background: #252525;
+}
+
+.footer_info {
+    padding: 34px 0;
+}
+
+.footer_info .footer_title {
+    color: #fff;
+}
+
+.footer_info .footer_title h2 {}
+
+.footer_info .address {}
+
+.footer_info .address p {
+    color: #C2C2C2;
+    padding-top: 9px;
+    line-height: 26px;
+}
+
+.footer_info .links {}
+
+.footer_info .links .fnav {
+    display: block;
+    color: #c2c2c2;
+    padding: 16px 0;
+}
+
+.lucation {
+    padding-top: 39px;
+}
